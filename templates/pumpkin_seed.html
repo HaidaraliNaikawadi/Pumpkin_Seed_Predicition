@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pumpkin Seed Prediction</title>
+</head>
+<body style="background-color: rgb(160, 32, 102);">
+
+    <h1>Pumpkin Seed Class Prediction </h1>
+    <form method="POST" action="/predict_seed">
+
+        <label>Area:</label>
+        <input type = "text" name = "Area">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Perimeter:</label>
+        <input type = "text" name = "Perimeter">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Major_Axis_Length:</label>
+        <input type = "text" name = "Major_Axis_Length">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Minor_Axis_Length:</label>
+        <input type = "text" name = "Minor_Axis_Length">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Convex_Area:</label>
+        <input type = "text" name = "Convex_Area">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Equiv_Diameter:</label>
+        <input type = "text" name = "Equiv_Diameter">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Eccentricity:</label>
+        <input type = "text" name = "Eccentricity">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Solidity:</label>
+        <input type = "text" name = "Solidity">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Extent:</label>
+        <input type = "text" name = "Extent">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Roundness:</label>
+        <input type = "text" name = "Roundness">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Aspect_Ration:</label>
+        <input type = "text" name = "Aspect_Ration">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Compactness:</label>
+        <input type = "text" name = "Compactness">
+        </select>
+
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+        <br>
+
+
+        <h4><strong>Pumpkin Seed Class is <b> {{ prediction }} </b>  </strong></h4>
+        
+    </form>
+    
+</body>
+</html>
